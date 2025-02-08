@@ -18,6 +18,7 @@ DeepgramProxy is a configurable proxy server designed to integrate Deepgram's sp
 
 `pip install -r requirements.txt
 `
+
 Edit the .env and include your [Deepgram](https://deepgram.com/) API key.
 
 Now run the Proxy:
