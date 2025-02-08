@@ -25,6 +25,8 @@ Now run the Proxy:
 `python3 deepgram_proxy_beta.py`
 
 **HOW TO USE WITH OPEN WEB UI**
-Go to setting within Open WebUI, then admin settings, click audio. For Speech-to-Text Engine select: OpenAI. Replace the URL with [](http://localhost:5001/v1), for API simply type `dummy` and for STT Model write `whisper-large`
-
-
+1. Go to setting within Open WebUI
+2. Admin settings > audio. 
+3. For Speech-to-Text Engine select: OpenAI. 
+4. Replace the URL with [](http://localhost:5001/v1) 
+5. For the API key simply type `dummy` and for STT Model write `whisper-large`
