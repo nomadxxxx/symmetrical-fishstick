@@ -241,7 +241,7 @@ import uvicorn
 if __name__ == "__main__":
     logger.info("Starting Uvicorn...")
     try:
-        uvicorn.run("deepgram_proxy:app", host="0.0.0.0", port=5001, reload=True)
+        uvicorn.run("deepgram_proxy_beta:app", host="0.0.0.0", port=5001, reload=True)
         print("running")
     except Exception as e:
         logger.critical(f"Uvicorn failed to start: {e}")
