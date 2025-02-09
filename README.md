@@ -28,5 +28,5 @@ Now run the Proxy:
 1. Go to setting within Open WebUI
 2. Admin settings > audio. 
 3. For Speech-to-Text Engine select: OpenAI. 
-4. Replace the URL with [](http://localhost:5001/v1) 
+4. Replace the URL with http://localhost:5001/v1
 5. For the API key simply type `dummy` and for STT Model write `whisper-large`
